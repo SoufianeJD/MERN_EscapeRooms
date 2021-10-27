@@ -17,7 +17,7 @@ const Feedback = require("./models/Feedback");
 
 const connection = mongoose.connection;
 
-mongoose.connect('mongodb+srv://soufianejd:pass@clusterprojectmernpfc.gc9jt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{ useUnifiedTopology: true, useNewUrlParser: true } );
+mongoose.connect('mongodb+srv:COPYPASTEURURLHERE',{ useUnifiedTopology: true, useNewUrlParser: true } );
 //mongoose.connect('mongodb://localhost:27017/tesst',{  useUnifiedTopology:true , useNewUrlParser: true });
 mongoose.set('useFindAndModify', false);
 
